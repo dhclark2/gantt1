@@ -27,6 +27,8 @@ gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 
+gem 'devise'
+
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
