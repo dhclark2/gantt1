@@ -12,3 +12,5 @@ Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += %w( dhtmlxgantt.css )
 Rails.application.config.assets.precompile += %w( dhtmlxgantt.js )
+Rails.application.config.assets.precompile += %w( dhtmlxscheduler.css )
+Rails.application.config.assets.precompile += %w( dhtmlxscheduler.js )

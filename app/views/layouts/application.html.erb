@@ -4,8 +4,10 @@
     <title>Gantt</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= stylesheet_link_tag 'dhtmlxgantt', media: 'all', 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag 'dhtmlxscheduler', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'dhtmlxgantt', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'dhtmlxscheduler', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
 </head>
 <body>
@@ -27,8 +29,8 @@
           <li class="active"><%= link_to "Home", "/" %></li>
           <!-- <li><%= link_to "About", "home/index" %></li>
           <li><%= link_to "Help", "home/index" %></li> -->
-          <li><%= link_to "Gantt", "home/index" %></li>
-          <li><%= link_to "Calendar", "home/calendar" %></li>
+          <li><%= link_to "Gantt", "/home/index" %></li>
+          <li><%= link_to "Calendar", "/calendar/index" %></li>
         </ul>
         <ul class = "nav navbar-nav navbar-right">
           <% if user_signed_in? %>
