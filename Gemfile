@@ -29,6 +29,9 @@ gem 'turbolinks', '~> 5'
 
 gem 'devise'
 
+# export data to seeds
+gem 'seed_dump', '~> 3.2', '>= 3.2.4'
+
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
