@@ -36,6 +36,11 @@
 # ])
 
 
+
+# User.create!([
+#   {email: "ham@example.com", encrypted_password: "123456", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 1, current_sign_in_at: "2017-02-01 17:27:51", last_sign_in_at: "2017-02-01 17:27:51", current_sign_in_ip: "127.0.0.1", last_sign_in_ip: "127.0.0.1"}
+# ])
+
 Link.create!([
   {source: 1, target: 3, link_type: "0"},
   {source: 3, target: 4, link_type: "0"},
